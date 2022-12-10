@@ -1,9 +1,7 @@
 package lr3;
 
 import java.util.Scanner;
-
 public class Example4 {
-
     public static void main(String[] args) {
 
         Scanner id = new Scanner(System.in);
@@ -15,7 +13,6 @@ public class Example4 {
         SortNum.WhileSortNum(x, y);
         SortNum.ForSortNum(x, y);
     }
-
     static class SortNum {
         static void WhileSortNum(int x, int y) {
             System.out.println("\n\nверсия программы на основе оператора \"while\"");

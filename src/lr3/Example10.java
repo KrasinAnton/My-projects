@@ -2,9 +2,7 @@ package lr3;
 
 import java.util.Random;
 import java.util.Scanner;
-
 public class Example10 {
-
     public static void main(String[] args) {
         Scanner id = new Scanner(System.in); // Создание объекта класса Scanner для считывания числа введённого к консоль
         System.out.println("Введите размер массива");

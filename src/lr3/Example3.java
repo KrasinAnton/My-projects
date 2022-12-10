@@ -3,7 +3,6 @@ package lr3;
 import java.util.Scanner;
 
 public class Example3 {
-
     public static void main(String[] args) {
 
         Scanner id = new Scanner(System.in);
@@ -13,7 +12,6 @@ public class Example3 {
         Fib.WhileFib(x);
         Fib.ForFib(x);
     }
-
     static class Fib {
         static void WhileFib(int x) {
             System.out.println("\n\nверсия программы на основе оператора \"while\"");
@@ -30,7 +28,6 @@ public class Example3 {
             }
             System.out.println("\nконец цикла");
         }
-
         static void ForFib(int x) {
             System.out.println("\n\nверсия программы на основе оператора \"for\"");
             long k = 0;

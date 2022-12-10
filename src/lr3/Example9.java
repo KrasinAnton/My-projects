@@ -2,7 +2,6 @@ package lr3;
 
 import java.util.Random;
 import java.util.Scanner;
-
 public class Example9 {
     public static void main(String[] args) {
         Scanner id = new Scanner(System.in);

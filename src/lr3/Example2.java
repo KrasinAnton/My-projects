@@ -15,7 +15,6 @@ public class Example2 {
     }
 
     static class WeekDay {
-
         static void IfMethod(String d) {
             String day = d;
             System.out.println("\nверсия программы на основе вложенных условных операторов");

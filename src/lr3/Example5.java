@@ -2,9 +2,7 @@ package lr3;
 
 import java.util.Random;
 import java.util.Scanner;
-
 public class Example5 {
-
     public static void main(String[] args) {
         Scanner id = new Scanner(System.in);
         System.out.println("Ввведите количество чисел в сумме");
@@ -13,7 +11,6 @@ public class Example5 {
         CalcNum.WhileCalcNum(x);
         CalcNum.ForCalcNum(x);
     }
-
     private static class CalcNum {
         private static void WhileCalcNum(int x) {
             System.out.println("\n\nверсия программы на основе оператора \"while\"");
@@ -30,7 +27,6 @@ public class Example5 {
             }
             System.out.printf("сумма чисел: %d", sum);
         }
-
         private static void ForCalcNum(int x) {
             System.out.println("\n\nверсия программы на основе оператора \"for\"");
             int sum = 0;

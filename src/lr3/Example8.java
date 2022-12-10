@@ -1,7 +1,5 @@
 package lr3;
-
 public class Example8 {
-
     public static void main(String[] args) {
         int Size = 10;
         char chars[] = new char[Size];                              // Создание массива с размером 10
