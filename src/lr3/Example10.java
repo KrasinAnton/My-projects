@@ -4,14 +4,14 @@ import java.util.Random;
 import java.util.Scanner;
 public class Example10 {
     public static void main(String[] args) {
-        Scanner id = new Scanner(System.in); // Создание объекта класса Scanner для считывания числа введённого к консоль
+        Scanner id = new Scanner(System.in);
         System.out.println("Введите размер массива");
-        int Size = id.nextInt(); // Запись в переменную Size (нужная для того чтобы задать размер массива)
+        int Size = id.nextInt();
         System.out.println("Размер массива равен "+ Size);
-        int[] num = new int[Size]; // Создание массива с размером введённым из консоли
-        Random random = new Random(); // Создание объекта класса Random для генерации "случайного" числа
+        int[] num = new int[Size];
+        Random random = new Random();
         for (int i = 0 ; i < num.length ; i++ ){
-            num[i] = random.nextInt(200); // Присвоение i-тому элементу массива случайного значения
+            num[i] = random.nextInt(200);
             System.out.println("Элемент массива ["+i+"] = " + num[i]);
         }
         for(int i = num.length ; i >= 0 ; i--) {
@@ -19,7 +19,7 @@ public class Example10 {
                 if (num[j] < num[j + 1]) {
                     int tmp = num[j];
                     num[j] = num[j + 1];
-                    num[j + 1] = tmp; // Сортировка массива по убыванию его элементов
+                    num[j + 1] = tmp;
                 }
             }
         }

@@ -11,14 +11,14 @@ public class Example9 {
         int[] num = new int[Size];
         Random random = new Random();
         for (int i = 0; i < num.length; i++) {
-            num[i] = random.nextInt(200); // Присвоение i-тому элементу массива случайного значения
+            num[i] = random.nextInt(200);
             System.out.println("Элемент массива [" + i + "] = " + num[i]);
         }
         System.out.println("Конец массива num[i]\n");
-        int[] min_count = new int[Size]; // создание массива для отслеживания индекса
-        int[] min_num = new int[Size]; // создание массива для отслеживания повторяющегося минимального значения
-        int min = num[0]; // создание переменной с минимальным значением
-        for (int l = 0; l < 2; l++) { // расчет минимальных значений
+        int[] min_count = new int[Size];
+        int[] min_num = new int[Size];
+        int min = num[0];
+        for (int l = 0; l < 2; l++) {
             for (int j = 0; j < num.length; j++) {
                 if (min >= num[j]) {
                     min_count[j] = j;
@@ -30,7 +30,7 @@ public class Example9 {
                 }
             }
         }
-        for (int k = 0; k < num.length; k++) { // Вывод итогового сообщения
+        for (int k = 0; k < num.length; k++) {
             if (min_num[k] == min && min_count[k] != 0) {
                 System.out.println("Элемент массива [" + min_count[k] + "]" + min_num[k] + "- минимальное значение");
             }

@@ -42,7 +42,7 @@ public class Example4 {
                     System.out.printf("%d, ", x1);
                 }
             }
-            System.out.println("конец числового ряда"); // Сообщение пользователю
+            System.out.println("конец числового ряда");
         }
     }
 }
