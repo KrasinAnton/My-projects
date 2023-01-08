@@ -1,1 +1,1 @@
-Мои решенные задачи в Тимус: https://acm.timus.ru/author.aspx?id=350860
+Решенные задачи сайт Тимус: https://acm.timus.ru/author.aspx?id=350860
