@@ -10,19 +10,19 @@ public class Example15 {
         int firstNumber; int secondNumber;
         int sum; int sum2;
 
-        System.out.println("Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ: ");
+        System.out.println("Введите первое число: ");
         firstNumber = in.nextInt();
-        System.out.println("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ: ");
+        System.out.println("Введите второе число: ");
         secondNumber = in.nextInt();
 
         sum = firstNumber + secondNumber;
         sum2 = firstNumber - secondNumber;
 
-        System.out.println("РЎСѓРјРјР° СЌС‚РёС… С‡РёСЃРµР»: "  +sum);
-        System.out.println("Р Р°Р·РЅРѕСЃС‚СЊ СЌС‚РёС… С‡РёСЃРµР»: " +sum2);
+        System.out.println("Сумма этих чисел: "  +sum);
+        System.out.println("Разность этих чисел: " +sum2);
         in.close();
     }
 
 }
-/*РќР°РїРёС€РёС‚Рµ РїСЂРѕРіСЂР°РјРјСѓ, РІ РєРѕС‚РѕСЂРѕР№ РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ РІРІРѕРґРёС‚ РґРІР° С‡РёСЃР»Р°,
-Р° РїСЂРѕРіСЂР°РјРјРѕР№ РІС‹С‡РёСЃР»СЏРµС‚СЃСЏ Рё РѕС‚РѕР±СЂР°Р¶Р°РµС‚СЃСЏ СЃСѓРјРјР° Рё СЂР°Р·РЅРѕСЃС‚СЊ СЌС‚РёС… С‡РёСЃРµР».*/
+/*Напишите программу, в которой Пользователь вводит два числа,
+а программой вычисляется и отображается сумма и разность этих чисел.*/
